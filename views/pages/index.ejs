@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+  <%- include('../partials/head'); %>
+<body class="container m-50">
+
+  <%- include('../partials/header'); %>
+
+  <main>
+    <div class="jumbotron text-center">
+      <h1>Welcome to the CRUD</h1>
+      <form action="/list" method="post">
+        <input class="form-control mb-3 text-center" type="text" placeholder="name" name="name">
+        <input class="form-control mb-4 text-center" type="text" placeholder="description" name="description">
+        <button class="btn btn-primary" type="submit">Submit</button>
+      </form>
+    </div>
+  </main>
+</body>
+</html>
